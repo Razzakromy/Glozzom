@@ -1,0 +1,37 @@
+// NAVBAR SEC
+.navbar{
+    .nav-item {
+        padding-left: 1em;
+    }
+    .nav-item:nth-child(1) {
+        padding-left: 0;
+    }
+    .nav-link{
+        text-transform: uppercase;
+    }
+    background: #000;
+}
+
+// CAROUSEL SLIDER
+.carousel-item{
+    height: 450px;
+    background-size: cover;
+}
+.img_1{
+    background-image: url("../img/image1.jpg");
+}
+.img_2{
+    background-image: url("../img/image2.jpeg");
+}
+.img_3{
+    background-image: url("../img/image3.jpeg");
+}
+
+// RESPONSIVE 
+@media(max-width: 767px){
+    .navbar{
+        .nav-item{
+            padding-left: 0;
+        }
+    }
+}

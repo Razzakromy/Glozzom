@@ -1,0 +1,25 @@
+.navbar {
+  background: #000; }
+  .navbar .nav-item {
+    padding-left: 1em; }
+  .navbar .nav-item:nth-child(1) {
+    padding-left: 0; }
+  .navbar .nav-link {
+    text-transform: uppercase; }
+
+.carousel-item {
+  height: 450px;
+  background-size: cover; }
+
+.img_1 {
+  background-image: url("../img/image1.jpg"); }
+
+.img_2 {
+  background-image: url("../img/image2.jpeg"); }
+
+.img_3 {
+  background-image: url("../img/image3.jpeg"); }
+
+@media (max-width: 767px) {
+  .navbar .nav-item {
+    padding-left: 0; } }
