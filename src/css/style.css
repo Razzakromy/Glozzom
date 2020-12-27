@@ -20,6 +20,30 @@
 .img_3 {
   background-image: url("../img/image3.jpeg"); }
 
+#home_icon .fa {
+  font-size: 3.125rem; }
+
+#get_started {
+  position: relative;
+  background-image: url("../img/bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 15.625rem; }
+  #get_started .dark_overlay {
+    background: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0; }
+
 @media (max-width: 767px) {
   .navbar .nav-item {
     padding-left: 0; } }
+
+@media (max-width: 480px) {
+  #my-carousel .carousel-caption h2 {
+    font-size: 2.2rem; }
+  #get_started {
+    min-height: 21.625rem; } }

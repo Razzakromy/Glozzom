@@ -1,37 +1,80 @@
+// VARIABLE SASS
+$dark_overlay: rgba(0, 0, 0, 0.75);
+$icon_size: 3.125rem;
+
 // NAVBAR SEC
-.navbar{
-    .nav-item {
-        padding-left: 1em;
-    }
-    .nav-item:nth-child(1) {
-        padding-left: 0;
-    }
-    .nav-link{
-        text-transform: uppercase;
-    }
-    background: #000;
+.navbar {
+  .nav-item {
+    padding-left: 1em;
+  }
+  .nav-item:nth-child(1) {
+    padding-left: 0;
+  }
+  .nav-link {
+    text-transform: uppercase;
+  }
+  background: #000;
 }
 
 // CAROUSEL SLIDER
-.carousel-item{
-    height: 450px;
-    background-size: cover;
+.carousel-item {
+  height: 450px;
+  background-size: cover;
 }
-.img_1{
-    background-image: url("../img/image1.jpg");
+.img_1 {
+  background-image: url("../img/image1.jpg");
 }
-.img_2{
-    background-image: url("../img/image2.jpeg");
+.img_2 {
+  background-image: url("../img/image2.jpeg");
 }
-.img_3{
-    background-image: url("../img/image3.jpeg");
+.img_3 {
+  background-image: url("../img/image3.jpeg");
 }
 
-// RESPONSIVE 
-@media(max-width: 767px){
-    .navbar{
-        .nav-item{
-            padding-left: 0;
-        }
+// HOME ICON
+#home_icon {
+  .fa {
+    font-size: $icon_size;
+  }
+}
+
+//GET STARTED
+#get_started {
+  position: relative;
+  background-image: url("../img/bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 15.625rem;
+
+  .dark_overlay {
+    background: $dark_overlay;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+}
+
+// RESPONSIVE
+@media (max-width: 767px) {
+  .navbar {
+    .nav-item {
+      padding-left: 0;
     }
+  }
+}
+
+@media (max-width: 480px) {
+  #my-carousel {
+    .carousel-caption {
+      h2 {
+        font-size: 2.2rem;
+      }
+    }
+  }
+  #get_started {
+    min-height: 21.625rem;
+  }
 }
