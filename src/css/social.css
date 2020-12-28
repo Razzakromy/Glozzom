@@ -1,6 +1,7 @@
 #social {
   position: relative;
-  margin-top: 100px
+  margin-top: 100px;
+  min-height: 7rem;
 }
 .social_ul {
   position: absolute;
@@ -21,7 +22,7 @@
   list-style: none;
   margin: 0 40px;
 }
-.social_ul li .fa {
+.social_ul li .fab {
   font-size: 40px;
   color: #262626;
   line-height: 80px;
@@ -31,6 +32,7 @@
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
 }
+
 .social_ul li a {
   position: relative;
   display: block;
@@ -90,7 +92,7 @@
   -ms-transform: perspective(1000px) rotate(-30deg) skew(25deg);
   -o-transform: perspective(1000px) rotate(-30deg) skew(25deg);
 }
-.social_ul li:hover .fa {
+.social_ul li:hover .fab {
   color: #fff;
 }
 .social_ul li a:hover {

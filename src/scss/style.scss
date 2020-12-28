@@ -1,8 +1,11 @@
 // VARIABLE SASS
 $dark_overlay: rgba(0, 0, 0, 0.75);
 $icon_size: 3.125rem;
-
-// NAVBAR SEC
+// COMMON
+h1, h2, h3, h4, h5, h6 {
+  color: #FBFBFB;
+}
+// NAVBAR
 .navbar {
   .nav-item {
     padding-left: 1em;
@@ -33,7 +36,7 @@ $icon_size: 3.125rem;
 
 // HOME ICON
 #home_icon {
-  .fa {
+  i {
     font-size: $icon_size;
   }
 }
@@ -57,7 +60,47 @@ $icon_size: 3.125rem;
   }
 }
 
+#lightbox {
+  position: relative;
+  background: url("../img/pc.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 14.875rem;
+
+  .dark_overlay {
+    background: $dark_overlay;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .fas{
+      font-size: $icon_size;
+      color: #ff0000;
+  }
+  .fas:hover{
+      color: aliceblue;
+  }
+}
+
+// GALLERY
+#gallery{
+  img{
+    min-height: 15.625rem;
+  }
+}
+
 // RESPONSIVE
+@media (max-width: 991px) {
+  #info {
+    .lead {
+      font-size: 1rem;
+      font-weight: 300;
+    }
+  }
+}
 @media (max-width: 767px) {
   .navbar {
     .nav-item {
@@ -75,6 +118,6 @@ $icon_size: 3.125rem;
     }
   }
   #get_started {
-    min-height: 21.625rem;
+    min-height: 23.625rem;
   }
 }

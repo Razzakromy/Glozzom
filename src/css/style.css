@@ -1,3 +1,6 @@
+h1, h2, h3, h4, h5, h6 {
+  color: #FBFBFB; }
+
 .navbar {
   background: #000; }
   .navbar .nav-item {
@@ -20,7 +23,7 @@
 .img_3 {
   background-image: url("../img/image3.jpeg"); }
 
-#home_icon .fa {
+#home_icon i {
   font-size: 3.125rem; }
 
 #get_started {
@@ -38,6 +41,34 @@
     top: 0;
     left: 0; }
 
+#lightbox {
+  position: relative;
+  background: url("../img/pc.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 14.875rem; }
+  #lightbox .dark_overlay {
+    background: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0; }
+  #lightbox .fas {
+    font-size: 3.125rem;
+    color: #ff0000; }
+  #lightbox .fas:hover {
+    color: aliceblue; }
+
+#gallery img {
+  min-height: 15.625rem; }
+
+@media (max-width: 991px) {
+  #info .lead {
+    font-size: 1rem;
+    font-weight: 300; } }
+
 @media (max-width: 767px) {
   .navbar .nav-item {
     padding-left: 0; } }
@@ -46,4 +77,4 @@
   #my-carousel .carousel-caption h2 {
     font-size: 2.2rem; }
   #get_started {
-    min-height: 21.625rem; } }
+    min-height: 23.625rem; } }

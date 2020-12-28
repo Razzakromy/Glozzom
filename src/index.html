@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="A Bootstrap 4 project" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Glozzom</title>
+    <!-- UIKIT PlUGIN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.6.5/css/uikit.min.css" integrity="sha512-ihdMAmrtp1BhW9YAgJr6/K1T69c6qIklJCRWhg2c83jazNcc00G7Mh49bbieaPtlJDr57fbJaxoeoHBzyz09sA==" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/navbar_icon_customize.css">
     <link rel="stylesheet" href="css/social.css">
     <link rel="stylesheet" href="css/style.css">
@@ -17,43 +19,44 @@
 </head>
 
 <body>
-    <!-- NABVAR SECTION START -->
-    <nav class="navbar navbar-expand-md navbar-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">Glozzom</a>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about_us.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services.html">
-                            Services
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact.html">Contact</a>
-                    </li>
-                </ul>
+    <!-- NABVAR -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark" uk-sticky="top: 100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+            <div class="container">
+                <a class="navbar-brand" href="#">Glozzom</a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about_us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services.html">
+                                Services
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <!-- NABVAR SECTION END -->
-    <!-- CAROUSEL SLIDER START -->
+        </nav>
+    </header>
+    <!-- CAROUSEL SLIDER -->
     <section class="bg-dark" id="showcase">
         <div id="my-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -69,7 +72,7 @@
                             <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum,
                                 dignissimos.
                                 Eaque cum voluptatibus incidunt dolores beatae? Enim labore fugiat dignissimos.</p>
-                            <a href="#" class="btn btn-success">Learn More</a>
+                            <a href="#" class="btn btn-warning">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -86,7 +89,7 @@
                         <h2 class="display-4">Heading Three</h2>
                         <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, dignissimos.
                             Eaque cum voluptatibus incidunt dolores beatae? Enim labore fugiat dignissimos.</p>
-                        <a href="#" class="btn btn-warning">Learn More</a>
+                        <a href="#" class="btn btn-outline-light">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -100,14 +103,12 @@
             </a>
         </div>
     </section>
-    <!-- CAROUSEL SLIDER END -->
-
-    <!-- HOME ICON SECTION START -->
+    <!-- HOME ICON  -->
     <section id="home_icon" class="text-center py-3">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mt-4">
-                    <i class="fa fa-gears"></i>
+                    <i class="fas fa-cogs"></i>
                     <h3 class="my-2">Turning Gears</h3>
                     <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, maxime.</p>
                 </div>
@@ -124,44 +125,151 @@
             </div>
         </div>
     </section>
-    <!-- HOME ICON SECTION END -->
-
+    <!-- GET STARTED -->
     <section id="get_started" class="py-3 text-center text-light">
         <div class="dark_overlay">
             <div class="container">
                 <div class="row">
                     <div class="col mt-5 pt-2">
                         <h2>Are You Ready To Get Started?</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quaerat voluptatem laboriosam vero recusandae repellendus? Impedit iure est sit voluptatum blanditiis cum sequi laudantium quod dicta, a quaerat vel, obcaecati!</p>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quaerat voluptatem
+                            laboriosam vero recusandae repellendus? Impedit iure est sit voluptatum blanditiis cum sequi
+                            laudantium quod dicta, a quaerat vel, obcaecati!</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- SOCIAL SECTION START -->
-    <!-- <section id="social"> 
+    <!-- INFO SECTION -->
+    <section id="info" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <h3>Lorem Ipsum Dolor Sit</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, quaerat unde
+                        labore sequi facilis possimus nulla a! Aliquam, saepe illo. Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Optio, praesentium!</p>
+                    <a href="#" class="btn btn-dark">Read More</a>
+                </div>
+                <div class="col-md-6 mt-sm-3 mt-3 mt-md-0">
+                    <img src="img/image5.jpeg" class="img-fluid rounded" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- LIGHTBOX VIDEO -->
+    <section id="lightbox" class="py-5 text-center text-light">
+        <div class="dark_overlay">
+            <div class="container">
+                <div class="row">
+                    <div uk-lightbox class="col my-5">
+                        <a href="https://youtu.be/unKrwmHqhC0">
+                            <i class="fas fa-play"></i>
+                        </a>
+                        <h2 class="mt-4">Bootstrap 4 Crash Course</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- GALLERY -->
+    <section id="gallery" class="py-3 text-center" uk-lightbox>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3 class="text-dark">Photo Gallery</h3>
+                    <p class="lead">Check out our photos</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="img/image1.jpg">
+                        <img src="img/image1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="img/image6.jpeg">
+                        <img src="img/image6.jpeg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="img/image4.jpeg">
+                        <img src="img/image4.jpeg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-md-4">
+                <div class="col-md-4">
+                    <a href="img/image3.jpeg">
+                        <img src="img/image3.jpeg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="img/bg1.jpg">
+                        <img src="img/bg1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="img/image2.jpeg">
+                        <img src="img/image2.jpeg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- NEWS LETTER -->
+    <section id="newsletter" class="bg-dark text-light py-3 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Signup For Our Newsletter</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis magnam similique esse assumenda quasi repellendus illum perferendis quos aliquid possimus.</p>
+                    <form action="#" method="POST" class="form-inline justify-content-center">
+                       <label class="sr-only" for="name">Name</label>
+                       <input type="text" class="form-control m-2" placeholder="Enter name">
+                       <label class="sr-only" for="email">Email</label>
+                       <input type="email" class="form-control m-2" placeholder="Enter email">
+                       <input type="submit" class="btn btn-primary form-control m-2" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SOCIAL LINK -->
+   <section id="social" class="pb-5"> 
         <div class="container">
             <div class="row">
                 <div class="col d-md-block d-none">
                     <ul class="social_ul">
-                        <li><a href="https://www.facebook.com/razzakromy" target="_blank"><i class="fa fa-facebook"
+                        <li><a href="https://www.facebook.com/razzakromy" target="_blank"><i class="fab fa-facebook-f"
                                     aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-    <!-- SOCIAL SECTION END -->
+
+    <footer class="bg-black py-3 text-light text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="lead mb-0">Copyright 2020 &copy; Glozzom</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <!-- JS FILES -->
     <script src="js/jquery.slim.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
+     <!-- UIKIT PLUGIN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.6.5/js/uikit.min.js" integrity="sha512-uC6XfU3l1h3YK9/CTdEoB0/quxEarq3UINC136pq2ibLIOHYC3FsTZSAbDrfsuGbhmPdNAe4jYXyVgXl0vdnfA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.6.5/js/uikit-icons.min.js" integrity="sha512-wc8ErBYe4IW0tM5RZUwINqsPjzZcj0YFxQxieLWO/iyDaPeSAy5Fcw7gZebOfGHC4UzGxtYABX/LQzM9vTGbzA==" crossorigin="anonymous"></script>
+   
 </body>
-
 </html>
