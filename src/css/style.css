@@ -78,6 +78,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 3.125rem;
   margin-bottom: 0.8rem; }
 
+#testimonial .slick-dots li button::before {
+  color: #fff; }
+
 @media (max-width: 991px) {
   #info .lead {
     font-size: 1rem;

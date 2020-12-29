@@ -114,7 +114,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.8rem;
   }
 }
-
+// TESTIMONIAL
+#testimonial{
+  .slick-dots li button::before {
+    color: #fff;
+  }
+}
 // RESPONSIVE
 @media (max-width: 991px) {
   #info {
