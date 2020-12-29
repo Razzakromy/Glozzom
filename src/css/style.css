@@ -64,6 +64,20 @@ h1, h2, h3, h4, h5, h6 {
 #gallery img {
   min-height: 15.625rem; }
 
+#page_header {
+  background: url("../img/image2.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 12.5rem; }
+
+#about_info img {
+  height: 22rem;
+  width: 22rem; }
+
+#icon_boxes i {
+  font-size: 3.125rem;
+  margin-bottom: 0.8rem; }
+
 @media (max-width: 991px) {
   #info .lead {
     font-size: 1rem;
