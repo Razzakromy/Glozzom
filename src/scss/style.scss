@@ -120,6 +120,12 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
   }
 }
+// BLOG POST
+#blog_post{
+  img{
+    height: 15.5rem;
+  }
+}
 // RESPONSIVE
 @media (max-width: 991px) {
   #info {

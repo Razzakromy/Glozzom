@@ -81,6 +81,9 @@ h1, h2, h3, h4, h5, h6 {
 #testimonial .slick-dots li button::before {
   color: #fff; }
 
+#blog_post img {
+  height: 15.5rem; }
+
 @media (max-width: 991px) {
   #info .lead {
     font-size: 1rem;
