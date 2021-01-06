@@ -2,8 +2,13 @@
 $dark_overlay: rgba(0, 0, 0, 0.75);
 $icon_size: 3.125rem;
 // COMMON
-h1, h2, h3, h4, h5, h6 {
-  color: #FBFBFB;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fbfbfb;
 }
 // NAVBAR
 .navbar {
@@ -76,53 +81,53 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     left: 0;
   }
-  .fas{
-      font-size: $icon_size;
-      color: #ff0000;
+  .fas {
+    font-size: $icon_size;
+    color: #ff0000;
   }
-  .fas:hover{
-      color: aliceblue;
+  .fas:hover {
+    color: aliceblue;
   }
 }
 
 // GALLERY
-#gallery{
-  img{
+#gallery {
+  img {
     min-height: 15.625rem;
   }
 }
 // **** ABOUT US PAGE**** //
 
 // PAGE HEADER
-#page_header{
-  background: url('../img/image2.jpeg');
+#page_header {
+  background: url("../img/image2.jpeg");
   background-size: cover;
   background-attachment: fixed;
   height: 12.5rem;
 }
 //ABOUT-INFO
-#about_info{
-  img{
+#about_info {
+  img {
     height: 22rem;
     width: 22rem;
   }
 }
 
-#icon_boxes{
-  i{
+#icon_boxes {
+  i {
     font-size: $icon_size;
     margin-bottom: 0.8rem;
   }
 }
 // TESTIMONIAL
-#testimonial{
+#testimonial {
   .slick-dots li button::before {
     color: #fff;
   }
 }
 // BLOG POST
-#blog_post{
-  img{
+#blog_post {
+  img {
     height: 15.5rem;
   }
 }

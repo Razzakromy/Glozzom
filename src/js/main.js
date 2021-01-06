@@ -10,4 +10,5 @@ $(document).ready(function () {
     fade: true,
     cssEase: "linear",
   });
+  new WOW().init();
 });

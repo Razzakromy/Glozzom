@@ -1,6 +1,5 @@
 #social {
   position: relative;
-  margin-top: 100px;
   min-height: 7rem;
 }
 .social_ul {
@@ -15,7 +14,6 @@
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
- 
 }
 
 .social_ul li {
